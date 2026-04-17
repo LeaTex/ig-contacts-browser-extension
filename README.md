@@ -1,6 +1,6 @@
-# IG Contacts Browser Extension
+# ![](assets/contacts-32.png) IG Contacts Browser Extension
 
-IG Contacts is a Chrome Manifest V3 extension that loads your Instagram followers and following lists, merges them into a single contact view, and shows relationship filters in a right-side panel.
+IG Contacts is a browser extension that loads your Instagram followers and following lists, merges them into a single contact view, and shows relationship filters in a right-side panel.
 
 ![IG Contacts Preview](assets/ig-contacts-preview.png)
 
