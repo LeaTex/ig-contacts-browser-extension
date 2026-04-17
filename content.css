@@ -1,0 +1,231 @@
+.igc-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(420px, 95vw);
+  height: 100vh;
+  background: #fff;
+  border-left: 1px solid #dbdbdb;
+  box-shadow: -16px 0 32px rgba(0, 0, 0, 0.18);
+  z-index: 2147483646;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.igc-hidden {
+  display: none;
+}
+
+.igc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.igc-title {
+  margin: 0;
+  color: #262626;
+  font-size: 18px;
+}
+
+.igc-close {
+  border: none;
+  background: transparent;
+  color: #8e8e8e;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.igc-btn {
+  width: 100%;
+  padding: 10px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.igc-btn:hover {
+  background: #1877f2;
+}
+
+.igc-btn:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.igc-status-label {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.igc-status-loading {
+  color: #b45309;
+}
+
+.igc-status-success {
+  color: #166534;
+}
+
+.igc-status-error {
+  color: #b91c1c;
+}
+
+.igc-contacts-list {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 2px;
+}
+
+.igc-empty {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.igc-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #efefef;
+}
+
+.igc-contact-item:last-child {
+  border-bottom: none;
+}
+
+.igc-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f3f4f6;
+  flex-shrink: 0;
+}
+
+.igc-contact-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.igc-name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+
+.igc-full-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #262626;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.igc-verified {
+  color: #0095f6;
+  font-size: 14px;
+}
+
+.igc-username {
+  color: #868686;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.igc-username:hover {
+  color: #0095f6;
+}
+
+.igc-status-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.igc-green-badge,
+.igc-grey-badge,
+.igc-translucent-green-badge,
+.igc-translucent-red-badge {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.igc-green-badge {
+  background: #c8e6c9;
+  color: #2e7d32;
+}
+
+.igc-grey-badge {
+  background: #d4d4d4;
+  color: #3a3a3a;
+}
+
+.igc-red-badge {
+  background: #e7acac;
+  color: #dd1111;
+}
+
+.igc-translucent-green-badge {
+  background: rgba(137, 247, 156, 0.12);
+  color: #4caf59;
+  border: 1px dotted #4caf5966;
+}
+
+.igc-translucent-red-badge {
+  background: rgba(231, 172, 172, 0.15);
+  color: #db4848;
+  border: 1px dotted #db484869;
+}
+
+/* Filters styles */
+.igc-filters {
+  margin-bottom: 12px;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.igc-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.igc-filter-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  gap: 8px;
+}
+
+.igc-filter-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0;
+  accent-color: #0095f6;
+}
+
+.igc-filter-checkbox span {
+  font-size: 13px;
+  color: #262626;
+  font-weight: 500;
+}
