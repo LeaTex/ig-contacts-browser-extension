@@ -1,7 +1,7 @@
 (() => {
     const contacts_cache_key = "igFollowersContactsCache";
     const panelId = "igc-panel";
-    const iconUrl = chrome.runtime.getURL("no-avatar.jpg");
+    const iconUrl = chrome.runtime.getURL("./assets/no-avatar.jpg");
 
     let panel = null;
     let contactsList = null;

@@ -36,8 +36,8 @@
   },
   
   "icons": {
-    "32": "contacts-32.png",
-    "48": "contacts-48.png",
-    "96": "contacts-96.png"
+    "32": "assets/contacts-32.png",
+    "48": "assets/contacts-48.png",
+    "96": "assets/contacts-96.png"
   }
 }
